@@ -81,7 +81,6 @@ app.get('/', function (req, res) {
 
 app.get('/logo.png', function (req, res) {
     sendFile(res, 'logo.png', 'image/png');
-  }
 });
 
 app.get('/pagecount', function (req, res) {
